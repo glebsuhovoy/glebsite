@@ -1,0 +1,28 @@
+@charset "utf-8";
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+HTML {
+	height: 100%;
+	width: 100%;
+}
+
+BODY {
+	height: 100%;
+	background-color: #fff;
+	flex-direction: column;
+}
+
+.slider {
+	height: 1024px;
+	width: 100%;
+	background: #555556 url(../img/slider.png) no-repeat;
+	display: flex;
+}
+
+.header {
+	display: flex;
+}
